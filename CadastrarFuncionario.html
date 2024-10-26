@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="favicon\favicon.ico" type="img/x-ico">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script type="text/javascript" src="script.js"></script>
+
+    <title>Xhopii</title>
+</head>
+
+<body class="cadastrar-cliente">
+
+    <header>
+        <img src="img/logo.png">
+        <h1>Xhopii</h1>
+        <a class="btn-sair" href="Login.html"><p class="btn-sair">Sair</p></a>
+    </header>
+    <nav class="menu-horizontal">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="CadastrarCliente.html">Cadastro Cliente</a></li>
+            <li><a href="CadastrarFuncionario.html">Cadastro Funcionário</a></li>
+            <li><a href="CadastrarProduto.html">Cadastro Produto</a></li>
+            <li><a href="VerCliente.html">Ver Clientes</a></li>
+            <li><a href="VerFuncionario.html">Ver Funcionários</a></li>
+            <li><a href="VerProduto.html">Ver Produtos</a></li>
+        </ul>
+    </nav>
+
+    <section class="forms-cadastrar">
+        <h3 class="titulo-forms-funcionario">Cadastrar Funcionário</h3>
+        <input class="forms" type="text" id="nome" name="nome" placeholder="Nome">
+        <input class="forms" type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome">
+        <input class="forms" type="text" id="cpf" name="cpf" placeholder="CPF">
+        <input class="forms" type="date" id="data-nascimento" name="data-nascimento" placeholder="Data de Nascimento">
+        <input class="forms" type="text" id="telefone" name="telefone" placeholder="Telefone">
+        <input class="forms" type="text" id="cargo" name="cargo" placeholder="Cargo / Função">
+        <input class="forms" type="text" id="salario" name="salario" placeholder="Salário">
+        <input class="forms" type="text" id="email" name="email" placeholder="E-Mail">
+        <input class="forms" type="password" id="senha" name="senha" placeholder="Senha">
+
+        <h3>Selecionar foto de perfil:</h3>
+        <section class="forms-upload">
+
+            <section>
+                <input class="forms-img-perfil" type="file" id="img-perfil">
+                <label class="forms-img-perfil" for="img-perfil">Escolher arquivo</label>
+            </section>
+            <section>
+                <p class="id-img-perfil" id="id-img-perfil">Nenhum arquivo escolhido</p>
+            </section>
+
+        </section>
+        <input class="forms-btn-cadastrar" type="submit" id="cadastrar" name="cadastrar" value="CADASTRAR">
+    </section>
+
+    <footer class="rodape">
+        <section class="rodape-divisao">
+            <h3>ATENDIMENTO AO CLIENTE</h3>
+            <br>
+            <a class="text-footer">
+                <p>Central de ajuda</p>
+                <p>Como comprar</p>
+                <p>Métodos de pagamento</p>
+                <p>Garantia Xhopii</p>
+                <p>Devolução e reembolso</p>
+                <p>Fale conosco</p>
+                <p>Ouridoria</p>
+            </a>
+        </section>
+
+        <section class="rodape-divisao">
+            <h3>SOBRE A XHOPII</h3>
+            <br>
+            <a class="text-footer">
+                <p>Sobre Nós</p>
+                <p>Políticas Xhopii</p>
+                <p>Política Privacidade</p>
+                <p>Programa de Aliados da Xhopii</p>
+                <p>Seja um Entregador XHopii</p>
+                <p>Ofertas Relâmpago</p>
+                <p>Xhopiii Blog</p>
+                <p>Impresa</p>
+            </a>
+        </section>
+
+        <section class="rodape-divisao">
+            <h3>PAGAMENTOS</h3>
+            <section class="rodape-img-pagamento">
+                <section class="grid-container">
+                    <section class="grid-item"> <img src="img\pix-img.jpg"> </section>
+                    <section class="grid-item"> <img src="img\boleto-img.jpg"> </section>
+                    <section class="grid-item"> <img src="img\americanExpress-img.png"> </section>
+                    <section class="grid-item"> <img src="img\visa-img.png"> </section>
+                    <section class="grid-item"> <img src="img\mastercard-img.jpg"> </section>
+                    <section class="grid-item"> <img src="img\hipercard-img.jpg"> </section>
+                    <section class="grid-item"> <img src="img\elo-img.png"> </section>
+                </section>
+            </section>
+        </section>
+
+        <sectionv class="rodape-divisao">
+            <h3>SIGA-NOS</h3>
+            <section class="rodape-img-socialmedia">
+                <br>
+                <img src="img\instagram-img.jpg">
+                <p class="txt-socialmedia">Instagram</p>
+                <img src="img\twitter-img.png">
+                <p class="txt-socialmedia">Twitter</p>
+                <img src="img\facebook-img.png">
+                <p class="txt-socialmedia">Facebook</p>
+                <img src="img\youtube-img.png">
+                <p class="txt-socialmedia">You-Tube</p>
+                <img src="img\linkedin-img.png">
+                <p class="txt-socialmedia">Linkedin</p>
+            </section>
+        </section>
+
+        <section class="rodape-divisao">
+            <h3>ATENDIMENTO AO CLIENTE</h3>
+            <br>
+            <img class="img-qrcode" src="img\qrcode.jpg">
+            <section class="rodape-img-atendimento">
+
+                <img src="img\googleplay-img.png">
+                <br>
+                <img src="img\applestore-img.png">
+            </section>
+        </section>
+        <section class="footer-copyright"></section>
+        <br>
+        <divsection class="copyright">&copy; 2024 Xhopii. Todos os direitos reservados </section>
+    </footer>
+</body>
+</html>
+
+Feito por Arthur e Isa
